@@ -16,12 +16,12 @@ int main()
   score=0;
   distance=1200.76;
   playAgain='y';
-  shieldsUp=true;
-  lives=3;
-  aliensKilled=10;
-  double engineTemp=6572.89;
+  shieldsUp=false;
+  lives=32767;
+  aliensKilled=3755;
+  double engineTemp=324587.89;
 
-  cout << "\nscore:"         <<score<<endl;
+  cout << "\nscore:" << score <<endl;
   cout << "distance:"     <<distance<<endl;
   cout << "playAgain:"     <<playAgain<<endl;
   //skiping shieldsUp science you don't generally print Boolean values
@@ -34,8 +34,8 @@ int main()
   cin >> fuel;
   cout << "fuel:"<<fuel <<endl;   
   
-  typedef unsigned short int ushort;
-  ushort bonus=10;
+  typedef unsigned short int banana;
+  banana bonus=10;
   cout<< "\nbonus:" <<bonus<<endl;
 
   return 0;
